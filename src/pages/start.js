@@ -6,7 +6,10 @@ const start = () => (
   <header className="App-header">
     <img src={logo} className="App-logo sm" alt="logo" />
     <p>React Hooks workshop.</p>
-    <Link className='App-link' to='/first'>Start here 🎣</Link>
+    <Link className='App-link' to='/first'>
+      Start here
+      <span role='img' aria-label='hook'> 🎣</span>
+    </Link>
   </header>
 );
 

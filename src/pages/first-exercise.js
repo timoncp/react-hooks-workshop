@@ -9,7 +9,7 @@ import Heading from '../components/heading';
 function firstExercise() {
   return (
     <>
-      <TopBar>1. What are hooks? -- Exercise</TopBar>
+      <TopBar>1. What are hooks?: Exercise</TopBar>
       <Content>
         <Heading emoji='exercise'>Exercise 1</Heading>
         <p>Create following elements:</p>

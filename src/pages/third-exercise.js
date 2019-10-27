@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import TopBar from '../components/topbar';
 import Content from '../components/content';
@@ -9,7 +8,7 @@ import Heading from '../components/heading';
 function thirdExercise() {
   return (
     <>
-      <TopBar>3. Third-party hooks -- Exercise</TopBar>
+      <TopBar>3. Third-party hooks: Exercise</TopBar>
       <Content>
         <Heading emoji='exercise'>Exercise 3</Heading>
         <p>1. Import the useHistory hook from <code>'react-router-dom'</code></p>

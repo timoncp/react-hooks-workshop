@@ -9,7 +9,7 @@ import Heading from '../components/heading';
 function secondExercise() {
   return (
     <>
-      <TopBar>2. Effects and Lifecycle events -- Exercise</TopBar>
+      <TopBar>2. Effects and Lifecycle events: Exercise</TopBar>
       <Content>
         <Heading emoji='exercise'>Exercise 2</Heading>
         <p>1. Use useEffect to attach to the <code>window</code> resize event.</p>

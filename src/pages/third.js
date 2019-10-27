@@ -1,12 +1,11 @@
 import React from 'react';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import * as prism from 'react-syntax-highlighter/dist/esm/styles/prism';
 import { Link } from 'react-router-dom';
 
 import TopBar from '../components/topbar';
 import Content from '../components/content';
 import Footer from '../components/footer';
 import Heading from '../components/heading';
+import Code from '../components/Code';
 
 const codeWithRouter = `import { withRouter } from 'react-router-dom';
 
@@ -53,14 +52,13 @@ const third = () => (
         Hooks make the need for higher-order components and render-prop patterns obsolete.\n
         `}
       </p>
+
       <h3>Before hooks:</h3>
-      <SyntaxHighlighter language='javascript' style={prism.atomDark}>
-        {codeWithRouter}
-      </SyntaxHighlighter>
+      <Code>{codeWithRouter}</Code>
+
       <h3>After hooks:</h3>
-      <SyntaxHighlighter language='javascript' style={prism.atomDark}>
-        {codeWithHooks}
-      </SyntaxHighlighter>
+      <Code>{codeWithHooks}</Code>
+
       <Link className='App-link' to='/third-exercise'>Let's exercise! →</Link>
     </Content>
     <Footer />
