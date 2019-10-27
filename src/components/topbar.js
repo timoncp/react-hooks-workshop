@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../logo.svg';
-import './topbar.css';
+import logo from '../resources/logo.svg';
+import './TopBar.css';
 
 const topbar = (props) => (
   <header className='App-topbar'>

@@ -1,9 +1,9 @@
 import React from 'react';
 
-import TopBar from '../components/topbar';
-import Content from '../components/content';
-import Footer from '../components/footer';
-import Heading from '../components/heading';
+import TopBar from '../components/TopBar';
+import Content from '../components/Content';
+import Footer from '../components/Footer';
+import Heading from '../components/Heading';
 
 function thirdExercise() {
   return (

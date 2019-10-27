@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './heading.css';
+import './Heading.css';
 
 const heading = (props) => {
   const emojis = {

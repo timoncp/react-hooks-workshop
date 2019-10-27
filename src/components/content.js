@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './content.css';
+import './Content.css';
 
 const content = (props) => (
   <div className='App-content'>
