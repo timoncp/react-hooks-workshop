@@ -1,0 +1,20 @@
+.App-topbar {
+  background-color: rgb(74, 99, 104);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 28px;
+  font-family: 'Karla', cursive;
+}
+
+.App-topbar a {
+  position: absolute;
+  left: 20px;
+}
+
+.App-topbar img {
+  height: 50px;
+}

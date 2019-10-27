@@ -1,0 +1,17 @@
+.App-heading {
+  color: rgb(175, 209, 202);
+  font-size: 38px;
+  margin-top: 10vw;;
+  background-color: rgba(78, 86, 102, 0.767);
+  border-radius: 7px;
+  padding: 20px;
+}
+
+.App-heading > hr {
+  margin: 10px 0;
+  border-color: rgb(175, 209, 202);
+}
+
+.App-heading > span {
+  font-size: 30px;
+}

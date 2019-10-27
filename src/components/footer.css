@@ -1,0 +1,12 @@
+.App-footer {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.App-footer > a {
+  color: black;
+}

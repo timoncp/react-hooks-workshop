@@ -1,0 +1,17 @@
+.App-content {
+  min-height: 80vh;
+  padding: 0 10vw 10vw 10vw;
+  white-space: pre-line;
+  line-break: normal;
+  overflow: scroll;
+}
+
+.App-content > h3 {
+  margin: 35px 0 25px 0;
+}
+
+.App-content > a {
+  margin-top: 25px;
+  float: right;
+  font-size: 30px;
+}
