@@ -5,7 +5,7 @@ import Content from '../components/Content';
 import Footer from '../components/Footer';
 import Heading from '../components/Heading';
 
-function thirdExercise() {
+function Instructions() {
   return (
     <>
       <TopBar>3. Third-party hooks: Exercise</TopBar>
@@ -26,6 +26,15 @@ function thirdExercise() {
       </Content>
       <Footer />
     </>
+  );
+};
+
+function thirdExercise() {
+  return (
+    <div>
+      <Instructions />
+      {/* Start coding here. */}
+    </div>
   );
 };
 

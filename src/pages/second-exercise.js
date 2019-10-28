@@ -6,7 +6,7 @@ import Content from '../components/Content';
 import Footer from '../components/Footer';
 import Heading from '../components/Heading';
 
-function secondExercise() {
+function Instructions() {
   return (
     <>
       <TopBar>2. Effects and Lifecycle events: Exercise</TopBar>
@@ -23,6 +23,15 @@ function secondExercise() {
       </Content>
       <Footer />
     </>
+  );
+};
+
+function secondExercise() {
+  return (
+    <div>
+      <Instructions />
+      {/* Start coding here. */}
+    </div>
   );
 };
 

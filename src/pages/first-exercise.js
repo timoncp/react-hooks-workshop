@@ -6,7 +6,7 @@ import Content from '../components/Content';
 import Footer from '../components/Footer';
 import Heading from '../components/Heading';
 
-function firstExercise() {
+function Instructions() {
   return (
     <>
       <TopBar>1. What are hooks?: Exercise</TopBar>
@@ -26,6 +26,15 @@ function firstExercise() {
       </Content>
       <Footer />
     </>
+  );
+};
+
+function firstExercise() {
+  return (
+    <div>
+      <Instructions />
+      {/* Start coding here. */}
+    </div>
   );
 };
 
