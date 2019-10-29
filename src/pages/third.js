@@ -24,14 +24,6 @@ export default withRouter(Example);`;
 const codeWithHooks = `import React from 'react';
 import { Router, useHistory } from 'react-router-dom';
 
-function Parent() {
-  return (
-    <Router>
-      <Example />
-    </Router>
-  )
-}
-
 function Example() {
   const history = useHistory();
 
@@ -49,7 +41,7 @@ const third = () => (
         {`Hooks aren't limited to React functionality.\n
         You can create your own custom hooks, or use third party ones.\n
         All major libraries are now offering the posibility to use their previous functionality as hooks.\n
-        Hooks make the need for higher-order components and render-prop patterns obsolete.\n
+        Hooks make the need for higher-order components and render-props patterns obsolete.\n
         `}
       </p>
 

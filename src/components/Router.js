@@ -8,6 +8,8 @@ import Second from '../pages/second';
 import SecondExercise from '../pages/second-exercise';
 import Third from '../pages/third';
 import ThirdExercise from '../pages/third-exercise';
+import Fourth from '../pages/fourth';
+import FourthExercise from '../pages/fourth-exercise';
 import Finish from '../pages/finish';
 
 function Router() {
@@ -20,6 +22,8 @@ function Router() {
       <Route path='/second-exercise' component={SecondExercise} />
       <Route path='/third' component={Third} />
       <Route path='/third-exercise' component={ThirdExercise} />
+      <Route path='/fourth' component={Fourth} />
+      <Route path='/fourth-exercise' component={FourthExercise} />
       <Route path='/finish' component={Finish} />
     </BrowserRouter>
   );
