@@ -26,11 +26,15 @@ function Instructions() {
   );
 };
 
+function Exercise() {
+  return null;
+}
+
 function secondExercise() {
   return (
     <div>
       <Instructions />
-      {/* Start coding here. */}
+      <Exercise />
     </div>
   );
 };

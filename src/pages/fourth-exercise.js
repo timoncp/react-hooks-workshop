@@ -29,11 +29,16 @@ function Instructions() {
   );
 };
 
+/* Start coding here. */
+function Exercise() {
+  return null;
+}
+
 function fourthExercise() {
   return (
     <div>
       <Instructions />
-      {/* Start coding here. */}
+      <Exercise />
     </div>
   );
 };
