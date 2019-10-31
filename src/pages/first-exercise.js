@@ -6,7 +6,12 @@ import Content from '../components/Content';
 import Footer from '../components/Footer';
 import Heading from '../components/Heading';
 
-function Instructions() {
+/* Start coding here. */
+function Exercise() {
+  return null;
+}
+
+function firstExercise() {
   return (
     <>
       <TopBar>1. What are hooks?: Exercise</TopBar>
@@ -22,24 +27,11 @@ function Instructions() {
         <br />
         <p>Open file <code>src/pages/first-exercise.js</code> and start coding.</p>
         <hr />
+        <Exercise />
         <Link className='App-link' to='/second'>Chapter 2 →</Link>
       </Content>
       <Footer />
     </>
-  );
-};
-
-/* Start coding here. */
-function Exercise() {
-  return null;
-}
-
-function firstExercise() {
-  return (
-    <div>
-      <Instructions />
-      <Exercise />
-    </div>
   );
 };
 

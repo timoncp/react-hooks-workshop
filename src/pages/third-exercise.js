@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
 
 import TopBar from '../components/TopBar';
 import Content from '../components/Content';
@@ -23,7 +22,12 @@ const redditJSON = `// response.data.children
 ]
 `;
 
-function Instructions() {
+/* Start coding here. */
+function Exercise() {
+  return null;
+}
+
+function thirdExercise() {
   return (
     <>
       <TopBar>3. Hooks and API calls: Exercise</TopBar>
@@ -35,31 +39,17 @@ function Instructions() {
         <p>4. Add an input element that changes the <code>query</code> state, and as such, triggers a re-render everytime it's changed.</p>
         <p>5. Map over the array with the results of our <code>query</code>, displaying the subreddit title.</p>
         <br />
-
         <h4>API info</h4>
         <Code>{'https://www.reddit.com/subreddits/search.json?q='}</Code>
         <Code>{redditJSON}</Code>
         <br />
         <p>Open file <code>src/pages/third-exercise.js</code> and start coding.</p>
         <hr />
+        <Exercise />
         <Link className='App-link' to='/fourth'>Chapter 4 →</Link>
       </Content>
       <Footer />
     </>
-  );
-};
-
-/* Start coding here. */
-function Exercise() {
-  return null;
-}
-
-function thirdExercise() {
-  return (
-    <div>
-      <Instructions />
-      <Exercise />
-    </div>
   );
 };
 
